@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary Brand Colors for Light Theme -->
+    <color name="primary_red">#FF0000</color> <!-- For buttons, accents -->
+    <color name="dark_red">#C20000</color> <!-- Variant of primary red -->
+    <color name="primary_white">#FFFFFF</color> <!-- Background and text on red -->
+    <color name="primary_black">#000000</color> <!-- Text color -->
+
+    <!-- Secondary Colors for Light Theme -->
+    <color name="light_gray">#E0E0E0</color> <!-- For placeholders -->
+    <color name="dark_gray">#808080</color> <!-- Secondary text -->
+
+    <!-- For Themes (Light Mode) -->
+    <color name="colorPrimary">#FF0000</color> <!-- Matches primary red -->
+    <color name="colorPrimaryVariant">#C20000</color> <!-- Matches dark red -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- White text on red -->
+
+    <color name="colorSecondary">#808080</color> <!-- Matches dark gray -->
+    <color name="colorSecondaryVariant">#E0E0E0</color> <!-- Matches light gray -->
+    <color name="colorOnSecondary">#000000</color> <!-- Black text on gray -->
+
+    <!-- Night Mode Colors -->
+    <color name="primary_red_night">#D32F2F</color> <!-- Darker variant of primary red -->
+    <color name="dark_red_night">#9A0007</color> <!-- Darker variant for night -->
+    <color name="primary_white_night">#121212</color> <!-- Dark background for night -->
+    <color name="primary_black_night">#FFFFFF</color> <!-- Light text on dark background -->
+
+    <color name="light_gray_night">#2C2C2C</color> <!-- Darker gray for night mode -->
+    <color name="dark_gray_night">#B0B0B0</color> <!-- Lighter gray text for night -->
+
+    <!-- For Themes (Night Mode) -->
+    <color name="colorPrimary_night">#D32F2F</color> <!-- Matches primary red in night -->
+    <color name="colorPrimaryVariant_night">#9A0007</color> <!-- Darker red for night -->
+    <color name="colorOnPrimary_night">#FFFFFF</color> <!-- White text on dark red -->
+
+    <color name="colorSecondary_night">#B0B0B0</color> <!-- Lighter gray text for night -->
+    <color name="colorSecondaryVariant_night">#2C2C2C</color> <!-- Darker gray for night -->
+    <color name="colorOnSecondary_night">#FFFFFF</color> <!-- White text on gray -->
+
+    <color name="semi_transparent_gray">#80E0E0E0</color>
+    <color name="semi_transparent_black">#80000000</color>
+    <color name="semi_transparent_white">#95FFFFFF</color>
+
+</resources>

@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">FruLens</string>
+    <string name="title_home">Home</string>
+    <string name="title_analyze">Analyze</string>
+    <string name="title_about">About</string>
+    <string name="title_setting">Settings</string>
+    <string name="set_acc">Setting Account</string>
+    <string name="in">Sign In</string>
+    <string name="up">Sign Up</string>
+    <string name="load">Wait a minute</string>
+    <string name="out">Sign Out</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="camera_x">CameraX</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="analyze">Analyze</string>
+    <string name="result">Results</string>
+    <string name="image_classifier_failed">Image classifier failed to initialize. See error logs for details</string>
+    <string name="image_classifier_not_initialized">Image classifier not initialized. See error logs for details</string>
+    <string name="upload">Upload a Picture</string>
+    <string name="darkmode">Dark Mode</string>
+    <string name="failpicture">Failed to take a pictures</string>
+    <string name="failedshow">Failed to show cameras</string>
+    <string name="notallowed">not allowed</string>
+    <string name="image_preview">Image Preview</string>
+    <string name="line">|</string>
+    <string name="no_serving">No serving data available.</string>
+    <string name="failfetch">"Failed to fetch nutrition data. Please check your internet connection and try again!"</string>
+
+
+    <string name="welcome">Discover your fruits\' nutritional secrets with just a scan.
+        Start making smarter, healthier choices today!</string>
+    <string name="articles">Articles</string>
+    <string name="about_us">About Us</string>
+
+    <string name="team_name">Member\'s name</string>
+    <string name="team_description">
+        We are Team C242-PS525 focused on "Health Innovation: Empowering Vulnerable Communities for Health and Well-being."
+        Through our project, FruLens, we use AI to promote healthier lifestyles and empower informed choices.</string>"
+    <string name="description">Description</string>
+    <string name="recipe_title">Recipe Title</string>
+    <string name="timeserving">Preparation Time: x minutes | Serving: x</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="ingredientlist">• Ingredient 1\n• Ingredient 2\n• Ingredient 3</string>
+    <string name="steps">Steps</string>
+    <string name="stepslist">1. Step 1 description.\n2. Step 2 description.\n3. Step 3 description.</string>
+    <string name="category">Category</string>
+    <string name="categories">Category 1, Category 2</string>
+    <string name="recipes">Here are some fruit recipes you might like, offering delicious and healthy ways to enjoy your favorite fruits!</string>
+    <string name="title_recipes">Recipes</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="change_password">Change Password</string>
+    <string name="update_password">Update Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="new_password">New Password</string>
+    <string name="old_password">Old Password</string>
+    <string-array name="data_name">
+        <item>Aan Andiyana Sandi</item>
+        <item>Ilmal Yakin Nurahman</item>
+        <item>Lina Dwi Yanti</item>
+        <item>Mohammad Yakfi Mukarom Al-Ayubi</item>
+        <item>Ridwan Fadillah</item>
+        <item>Rifdah Naasyiah</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>ML Cohort (M418B4KY0006)\n
+            Email: aanandiyana66@gmail.com\n
+            IG: @aan_andiyana_s31</item>
+        <item>ML Cohort (M418B4KY1951)\n
+            Email: ilmalyakinnurahman@gmail.com\n
+            IG: @ilmalyakin_n</item>
+        <item>CC Cohort (C575B4KX2274)\n
+            Email: dwiyantilinaa@gmail.com\n
+            IG: @mbananalina_</item>
+        <item>MD Cohort (A117B4KY2583)\n
+            Email: qyakfi@gmail.com\n
+            IG: @qyakfi</item>
+        <item>ML Cohort (M418B4KY3829)\n
+            Email: ridwangithub@gmail.com\n
+            IG : @ridwan.__f</item>
+        <item>CC Cohort (C575B4KX3839)\n
+            Email: rifdahnsyh@gmail.com\n
+            IG: @rifdahnsyh_21</item>
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/logo1</item>
+        <item>@drawable/logo1</item>
+        <item>@drawable/logo1</item>
+        <item>@drawable/logo1</item>
+        <item>@drawable/logo1</item>
+        <item>@drawable/logo1</item>
+    </integer-array>
+</resources>

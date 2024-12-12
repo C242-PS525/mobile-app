@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?android:attr/windowBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.setting.AccountSettingsActivity">
+
+    <!-- Header with logo -->
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/logo1"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+
+    <!-- Text for Change Password -->
+    <TextView
+        android:id="@+id/changepass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textColor="?attr/colorOnSecondary"
+        android:text="@string/change_password"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Current Password Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilCurrentpassword"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/old_password"
+        android:layout_marginTop="10dp"
+        app:passwordToggleEnabled="true"
+        app:layout_constraintTop_toBottomOf="@id/changepass">
+
+        <com.deboo.frulens.ui.cview.PasswordEditText
+            android:id="@+id/etCurrentpassword"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- New Password Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilNewpassword"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/new_password"
+        android:layout_marginTop="10dp"
+        app:passwordToggleEnabled="true"
+        app:layout_constraintTop_toBottomOf="@id/tilCurrentpassword">
+
+        <com.deboo.frulens.ui.cview.PasswordEditText
+            android:id="@+id/etNewpassword"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Confirm New Password Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilConfirmNewpassword"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/confirm_new_password"
+        android:layout_marginTop="10dp"
+        app:passwordToggleEnabled="true"
+        app:layout_constraintTop_toBottomOf="@id/tilNewpassword">
+
+        <com.deboo.frulens.ui.cview.PasswordEditText
+            android:id="@+id/etConfirmNewpassword"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Update Password Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnUpdatePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_password"
+        app:layout_constraintTop_toBottomOf="@id/tilConfirmNewpassword"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Loading Spinner -->
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:id="@+id/cvProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/btnUpdatePassword"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
