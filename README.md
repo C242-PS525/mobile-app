@@ -22,7 +22,7 @@ FruLens is an innovative mobile application developed as part of the Bangkit Cap
 
 1. Open the FruLens app on your device.
 2. Use the camera feature to scan a fruit.
-3. View the nutritional details and explore additional features like calorie tracking and health tips.
+3. View the nutritional details and explore additional features recipes articles.
 
 ### Demo Video
 https://github.com/user-attachments/assets/09b9a4ec-ecec-46c5-8f26-721d72227d58
