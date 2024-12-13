@@ -30,10 +30,3 @@ https://github.com/user-attachments/assets/09b9a4ec-ecec-46c5-8f26-721d72227d58
 ## About the Team
 
 We are Team C242-PS525 from the Bangkit Capstone Project 2024, focused on *"Health Innovation: Empowering Vulnerable Communities for Health and Well-being."* Our goal is to use technology to promote healthier lifestyles and raise awareness about the importance of nutrition.
-
-## Contact
-
-For questions or feedback, feel free to reach out:
-
-- Email: qyakfi@gmail.com
-- LinkedIn: Mohammad Yakfi Mukarom Al-Ayubi(https://www.linkedin.com/in/myakfima/)
