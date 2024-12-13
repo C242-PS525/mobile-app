@@ -24,6 +24,9 @@ FruLens is an innovative mobile application developed as part of the Bangkit Cap
 2. Use the camera feature to scan a fruit.
 3. View the nutritional details and explore additional features like calorie tracking and health tips.
 
+### Demo Video
+https://github.com/user-attachments/assets/09b9a4ec-ecec-46c5-8f26-721d72227d58
+
 ## About the Team
 
 We are Team C242-PS525 from the Bangkit Capstone Project 2024, focused on *"Health Innovation: Empowering Vulnerable Communities for Health and Well-being."* Our goal is to use technology to promote healthier lifestyles and raise awareness about the importance of nutrition.
